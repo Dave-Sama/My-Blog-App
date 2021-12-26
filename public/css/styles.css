@@ -1,0 +1,130 @@
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+	box-shadow: 0px 1px 10px#929292;
+	height: 60px;
+}
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+	body {
+		overflow-x: hidden;
+	}
+	.container-home {
+		margin: auto;
+		max-width: max-content;
+		position: absolute;
+		text-align: center;
+	}
+}
+
+li {
+	font-size: 10px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #929292;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.container {
+	margin: auto;
+}
+h1 {
+	display: grid;
+	margin-top: 5px;
+	background-color: antiquewhite;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 100;
+	box-shadow: 0px 1px 3px#929292;
+}
+
+.post {
+	/* display: grid; */
+	margin-top: 5px;
+	padding-left: 5px;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 100;
+	box-shadow: 0px 1px 3px#929292;
+	border-radius: 2px;
+}
+
+.container-home {
+	margin: auto;
+	/* max-width: max-content; */
+	position: fixed;
+	text-align: center;
+	width: 500px;
+	min-width: fit-content;
+	border-radius: 20px;
+	margin-top: 20px;
+	background: rgb(255, 240, 232);
+	background: linear-gradient(
+		0deg,
+		rgba(255, 240, 232, 1) 0%,
+		rgba(255, 255, 255, 1) 60%,
+		rgba(140, 140, 140, 1) 63%,
+		rgba(255, 214, 160, 1) 63%
+	);
+	box-shadow: 0px 5px 10px#929292;
+	margin-block: 15px;
+}
+
+body {
+	margin: 10px;
+	overflow-x: hidden;
+}
+
+.active {
+	float: right;
+}
+
+.title {
+	background-color: antiquewhite;
+	max-width: 100px;
+	text-align: center;
+	border-radius: 10px;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.219);
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+.content {
+	font-family: 'Courier New', Courier, monospace;
+}
